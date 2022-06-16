@@ -1,0 +1,171 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto"
+6    android:versionCode="1"
+7    android:versionName="0.1" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="23"
+10-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+11        android:targetSdkVersion="30" />
+11-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+12
+13    <uses-feature android:glEsVersion="0x00030000" />
+13-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:3-52
+13-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:17-49
+14    <uses-feature
+14-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:3-91
+15        android:name="android.hardware.vulkan.version"
+15-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:17-63
+16        android:required="false" />
+16-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:64-88
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:3-65
+18-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:20-62
+19
+20    <uses-feature
+20-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:3-88
+21        android:name="android.hardware.touchscreen"
+21-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:17-60
+22        android:required="false" />
+22-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:61-85
+23    <uses-feature
+23-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:3-99
+24        android:name="android.hardware.touchscreen.multitouch"
+24-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:17-71
+25        android:required="false" />
+25-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:72-96
+26    <uses-feature
+26-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:3-108
+27        android:name="android.hardware.touchscreen.multitouch.distinct"
+27-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:17-80
+28        android:required="false" />
+28-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:81-105
+29    <uses-feature
+29-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:3-111
+30        android:name="android.hardware.vr.headtracking"
+30-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:17-64
+31        android:required="true"
+31-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:65-88
+32        android:version="1" />
+32-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:89-108
+33
+34    <application android:extractNativeLibs="true" >
+34-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-24:17
+34-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+35        <activity
+35-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-13:16
+36            android:name="com.unity3d.player.UnityPlayerActivity"
+36-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
+37            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+37-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:204-305
+38            android:hardwareAccelerated="false"
+38-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:341-376
+39            android:launchMode="singleTask"
+39-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:172-203
+40            android:resizeableActivity="false"
+40-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:306-340
+41            android:screenOrientation="landscape"
+41-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:134-171
+42            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+42-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-133
+43            <intent-filter>
+43-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-9:23
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
+44-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
+46-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
+47                <category android:name="com.oculus.intent.category.VR" />
+47-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:9-66
+47-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:19-63
+48            </intent-filter>
+49
+50            <meta-data
+50-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:7-82
+51                android:name="unityplayer.UnityActivity"
+51-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:18-58
+52                android:value="true" />
+52-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:59-79
+53            <meta-data
+53-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:7-78
+54                android:name="android.notch_support"
+54-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:18-54
+55                android:value="true" />
+55-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:55-75
+56            <meta-data
+56-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:7-81
+57                android:name="com.oculus.vr.focusaware"
+57-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:18-57
+58                android:value="true" />
+58-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:58-78
+59        </activity>
+60
+61        <meta-data
+61-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-69
+62            android:name="unity.splash-mode"
+62-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-48
+63            android:value="0" />
+63-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:49-66
+64        <meta-data
+64-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-74
+65            android:name="unity.splash-enable"
+65-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-50
+66            android:value="True" />
+66-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:51-71
+67        <meta-data
+67-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-78
+68            android:name="unity.launch-fullscreen"
+68-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-54
+69            android:value="True" />
+69-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:55-75
+70        <meta-data
+70-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-84
+71            android:name="unity.allow-resizable-window"
+71-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-59
+72            android:value="False" />
+72-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:60-81
+73        <meta-data
+73-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-81
+74            android:name="notch.config"
+74-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-43
+75            android:value="portrait|landscape" />
+75-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:44-78
+76        <meta-data
+76-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-97
+77            android:name="com.samsung.android.vr.application.mode"
+77-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:16-70
+78            android:value="vr_only" />
+78-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:71-94
+79        <meta-data
+79-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:5-91
+80            android:name="com.unity.xr.oculus.LowOverheadMode"
+80-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:16-66
+81            android:value="false" />
+81-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:67-88
+82        <meta-data
+82-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:5-88
+83            android:name="com.unity.xr.oculus.LateLatching"
+83-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:16-63
+84            android:value="false" />
+84-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:64-85
+85        <meta-data
+85-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:5-93
+86            android:name="com.unity.xr.oculus.LateLatchingDebug"
+86-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:16-68
+87            android:value="false" />
+87-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:69-90
+88        <meta-data
+88-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:5-90
+89            android:name="com.oculus.supportedDevices"
+89-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:16-58
+90            android:value="quest|quest2" />
+90-->/Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:59-87
+91    </application>
+92
+93</manifest>
