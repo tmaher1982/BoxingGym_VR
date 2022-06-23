@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 3f2bca1bbe15044f2869cd5262a3a692
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bomb_mesh_shard1
+    100004: Bomb_mesh_shard10
+    100006: Bomb_mesh_shard11
+    100008: Bomb_mesh_shard12
+    100010: Bomb_mesh_shard13
+    100012: Bomb_mesh_shard14
+    100014: Bomb_mesh_shard15
+    100016: Bomb_mesh_shard16
+    100018: Bomb_mesh_shard17
+    100020: Bomb_mesh_shard18
+    100022: Bomb_mesh_shard19
+    100024: Bomb_mesh_shard2
+    100026: Bomb_mesh_shard20
+    100028: Bomb_mesh_shard3
+    100030: Bomb_mesh_shard4
+    100032: Bomb_mesh_shard5
+    100034: Bomb_mesh_shard6
+    100036: Bomb_mesh_shard7
+    100038: Bomb_mesh_shard8
+    100040: Bomb_mesh_shard9
+    400000: //RootNode
+    400002: Bomb_mesh_shard1
+    400004: Bomb_mesh_shard10
+    400006: Bomb_mesh_shard11
+    400008: Bomb_mesh_shard12
+    400010: Bomb_mesh_shard13
+    400012: Bomb_mesh_shard14
+    400014: Bomb_mesh_shard15
+    400016: Bomb_mesh_shard16
+    400018: Bomb_mesh_shard17
+    400020: Bomb_mesh_shard18
+    400022: Bomb_mesh_shard19
+    400024: Bomb_mesh_shard2
+    400026: Bomb_mesh_shard20
+    400028: Bomb_mesh_shard3
+    400030: Bomb_mesh_shard4
+    400032: Bomb_mesh_shard5
+    400034: Bomb_mesh_shard6
+    400036: Bomb_mesh_shard7
+    400038: Bomb_mesh_shard8
+    400040: Bomb_mesh_shard9
+    2300000: Bomb_mesh_shard1
+    2300002: Bomb_mesh_shard10
+    2300004: Bomb_mesh_shard11
+    2300006: Bomb_mesh_shard12
+    2300008: Bomb_mesh_shard13
+    2300010: Bomb_mesh_shard14
+    2300012: Bomb_mesh_shard15
+    2300014: Bomb_mesh_shard16
+    2300016: Bomb_mesh_shard17
+    2300018: Bomb_mesh_shard18
+    2300020: Bomb_mesh_shard19
+    2300022: Bomb_mesh_shard2
+    2300024: Bomb_mesh_shard20
+    2300026: Bomb_mesh_shard3
+    2300028: Bomb_mesh_shard4
+    2300030: Bomb_mesh_shard5
+    2300032: Bomb_mesh_shard6
+    2300034: Bomb_mesh_shard7
+    2300036: Bomb_mesh_shard8
+    2300038: Bomb_mesh_shard9
+    3300000: Bomb_mesh_shard1
+    3300002: Bomb_mesh_shard10
+    3300004: Bomb_mesh_shard11
+    3300006: Bomb_mesh_shard12
+    3300008: Bomb_mesh_shard13
+    3300010: Bomb_mesh_shard14
+    3300012: Bomb_mesh_shard15
+    3300014: Bomb_mesh_shard16
+    3300016: Bomb_mesh_shard17
+    3300018: Bomb_mesh_shard18
+    3300020: Bomb_mesh_shard19
+    3300022: Bomb_mesh_shard2
+    3300024: Bomb_mesh_shard20
+    3300026: Bomb_mesh_shard3
+    3300028: Bomb_mesh_shard4
+    3300030: Bomb_mesh_shard5
+    3300032: Bomb_mesh_shard6
+    3300034: Bomb_mesh_shard7
+    3300036: Bomb_mesh_shard8
+    3300038: Bomb_mesh_shard9
+    4300000: Bomb_mesh_shard1
+    4300002: Bomb_mesh_shard2
+    4300004: Bomb_mesh_shard3
+    4300006: Bomb_mesh_shard4
+    4300008: Bomb_mesh_shard5
+    4300010: Bomb_mesh_shard6
+    4300012: Bomb_mesh_shard7
+    4300014: Bomb_mesh_shard8
+    4300016: Bomb_mesh_shard9
+    4300018: Bomb_mesh_shard10
+    4300020: Bomb_mesh_shard11
+    4300022: Bomb_mesh_shard12
+    4300024: Bomb_mesh_shard13
+    4300026: Bomb_mesh_shard14
+    4300028: Bomb_mesh_shard15
+    4300030: Bomb_mesh_shard16
+    4300032: Bomb_mesh_shard17
+    4300034: Bomb_mesh_shard18
+    4300036: Bomb_mesh_shard19
+    4300038: Bomb_mesh_shard20
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: ad118d189695446d6b32b2e91bde5656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pdiCutMat0
+    second: {fileID: 2100000, guid: 72efeb86a160c4b2d82f22f846132d95, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 6
+      lastFrame: 120
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bomb_mesh_shard1
+        weight: 1
+      - path: Bomb_mesh_shard2
+        weight: 1
+      - path: Bomb_mesh_shard3
+        weight: 1
+      - path: Bomb_mesh_shard4
+        weight: 1
+      - path: Bomb_mesh_shard5
+        weight: 1
+      - path: Bomb_mesh_shard6
+        weight: 1
+      - path: Bomb_mesh_shard7
+        weight: 1
+      - path: Bomb_mesh_shard8
+        weight: 1
+      - path: Bomb_mesh_shard9
+        weight: 1
+      - path: Bomb_mesh_shard10
+        weight: 1
+      - path: Bomb_mesh_shard11
+        weight: 1
+      - path: Bomb_mesh_shard12
+        weight: 1
+      - path: Bomb_mesh_shard13
+        weight: 1
+      - path: Bomb_mesh_shard14
+        weight: 1
+      - path: Bomb_mesh_shard15
+        weight: 1
+      - path: Bomb_mesh_shard16
+        weight: 1
+      - path: Bomb_mesh_shard17
+        weight: 1
+      - path: Bomb_mesh_shard18
+        weight: 1
+      - path: Bomb_mesh_shard19
+        weight: 1
+      - path: Bomb_mesh_shard20
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 2
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

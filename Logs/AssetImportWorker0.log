@@ -193,3 +193,87 @@ Received Import Request.
   path: Assets/Prefabs
   artifactKey: Guid(a52497d0b5a8240c9a4fcb61981c8eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs using Guid(a52497d0b5a8240c9a4fcb61981c8eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41a87bb3e6824cb043215c67b9f1dc8') in 0.000838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 645.014035 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/penta_mat.mat
+  artifactKey: Guid(b223a82368bc7d84e9a636d3500b7fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/penta_mat.mat using Guid(b223a82368bc7d84e9a636d3500b7fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7f88d3771b87ff4aa2e1b6f6c5270e') in 0.259839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_tube2.mat
+  artifactKey: Guid(e5e3ab8308bb68649af84dd24502c319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_tube2.mat using Guid(e5e3ab8308bb68649af84dd24502c319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3330ae9609ba1c9c602fc1aed6e0f69c') in 0.193072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_neon.mat
+  artifactKey: Guid(abff491820f7acf40bf318706152e3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_neon.mat using Guid(abff491820f7acf40bf318706152e3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3862f9ac54dab64199e9e0d11a3c6f1') in 0.064744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_ring_anim.mat
+  artifactKey: Guid(4b840e108f2c7a242856dd8545a93178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_ring_anim.mat using Guid(4b840e108f2c7a242856dd8545a93178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4789cb235092d2a995506e7c5c566dc0') in 0.174996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.762507 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/APV_VR-Music_texture-lighring-torus2.mat
+  artifactKey: Guid(f2942b7beaa288c4997f65b8ff1b2386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/APV_VR-Music_texture-lighring-torus2.mat using Guid(f2942b7beaa288c4997f65b8ff1b2386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b8d1b225fb491ec066da443bd74503') in 0.129849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_color2_BG1.mat
+  artifactKey: Guid(82e7a7e5fe6099f4eabd702a1b806306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_color2_BG1.mat using Guid(82e7a7e5fe6099f4eabd702a1b806306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94d24c5883b220c18aaf053165fa411') in 0.005230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_BG1.mat
+  artifactKey: Guid(15d29d7178b12554fa20b0725e765e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_BG1.mat using Guid(15d29d7178b12554fa20b0725e765e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f9e403248d776b49ac11c8e8ef698e') in 0.005071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_Race _BG1.mat
+  artifactKey: Guid(d9a7ee690a86c1441b4e0356bf007346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_Race _BG1.mat using Guid(d9a7ee690a86c1441b4e0356bf007346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4775a16f512a61b929b4fbc0ef060224') in 0.005198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS_bomb_anim.mat
+  artifactKey: Guid(1ce172bad536d67438051c0399db9b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS_bomb_anim.mat using Guid(1ce172bad536d67438051c0399db9b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8572f2a5bfef8cabbb464025216c49e9') in 0.004687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_lighting Neon_BG1.mat
+  artifactKey: Guid(ba21e5527f34fa74e88d5eb294d8bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_lighting Neon_BG1.mat using Guid(ba21e5527f34fa74e88d5eb294d8bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062ac289e9c39d285bdb058473d425ac') in 0.161209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.725985 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File prefab/VIASS VRMusic_lighting Neon_BG1 Variant.prefab
+  artifactKey: Guid(9ca9ab68c80ff48a4bee4c343aeeb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File prefab/VIASS VRMusic_lighting Neon_BG1 Variant.prefab using Guid(9ca9ab68c80ff48a4bee4c343aeeb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861086fb425ef725393cd09f86295379') in 0.115426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_Glovers_Red Variant.prefab
+  artifactKey: Guid(f17efa25ac0da4f7e899132c4384d9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_Glovers_Red Variant.prefab using Guid(f17efa25ac0da4f7e899132c4384d9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5797c48507fa5f60494524af7bc5fc') in 0.206020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_lightcylinder01_mesh Variant.prefab
+  artifactKey: Guid(89aa1b4a9eee6499ab87d3ff7458f29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_lightcylinder01_mesh Variant.prefab using Guid(89aa1b4a9eee6499ab87d3ff7458f29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333f8466cda7d61c60cb7616a3c14f0a') in 0.013049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_Glovers_Blue Variant.prefab
+  artifactKey: Guid(f60724a41ead543e3ab766b985c1c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_Glovers_Blue Variant.prefab using Guid(f60724a41ead543e3ab766b985c1c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af022f79b86dd87590314baf2f7190c') in 0.006664 seconds 

@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7026184616415086646
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_Name
+      value: VIASS VRMusic_lighting Neon_BG1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000030755997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.4301753e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb95891c4b551c04cbf14ff1236c1a9d, type: 2}
+    - target: {fileID: 2300002, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb95891c4b551c04cbf14ff1236c1a9d, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3, type: 3}
+--- !u!4 &7026184616414958262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: aa20a7b4ccaaf463297a91c7ba00f9c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7026184616415086646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7026184616754455624
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7026184616414958262}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_Name
+      value: VIASS VRMusic_torus higligh_BG1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.92346
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13204956
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -310.4801
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000008940696
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000002235174
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.20201334
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.97938275
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 36.150475
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 36.150482
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 36.150482
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2942b7beaa288c4997f65b8ff1b2386, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2afdbb4aa0a8e4c4ca6350b3a5861eed, type: 3}
+--- !u!1001 &7026184617549350723
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7026184616414958262}
+    m_Modifications:
+    - target: {fileID: 100000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_Name
+      value: VIASS VRMusic_Lighting_polys_BG1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25582886
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 57.227257
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000030755997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000119209275
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.7049016e-22
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -1.4301753e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 16.277237
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 16.277245
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 39.370087
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef1f06fe6b2244c7d9e7cd0fab115780, type: 3}
+--- !u!1001 &7026184617700120025
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7026184616414958262}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_Name
+      value: VIASS VRMusic_Torus_BG1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8183
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.11703491
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -206.3201
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -1.4301753e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.11388239
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.11388244
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.11388244
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 93a92c431031745e196e04bdedaf2696, type: 2}
+    - target: {fileID: 2300002, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 93a92c431031745e196e04bdedaf2696, type: 2}
+    - target: {fileID: 2300004, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 93a92c431031745e196e04bdedaf2696, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d4e29068830a49b79263d57b7468f9f, type: 3}

@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: ee16bacb63cdb4bfd8a84040d7782163
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: penta_MASH2_Instancer_0
+    100004: penta_MASH2_Instancer_1
+    100006: penta_MASH2_Instancer_10
+    100008: penta_MASH2_Instancer_11
+    100010: penta_MASH2_Instancer_12
+    100012: penta_MASH2_Instancer_13
+    100014: penta_MASH2_Instancer_14
+    100016: penta_MASH2_Instancer_2
+    100018: penta_MASH2_Instancer_3
+    100020: penta_MASH2_Instancer_4
+    100022: penta_MASH2_Instancer_5
+    100024: penta_MASH2_Instancer_6
+    100026: penta_MASH2_Instancer_7
+    100028: penta_MASH2_Instancer_8
+    100030: penta_MASH2_Instancer_9
+    400000: //RootNode
+    400002: penta_MASH2_Instancer_0
+    400004: penta_MASH2_Instancer_1
+    400006: penta_MASH2_Instancer_10
+    400008: penta_MASH2_Instancer_11
+    400010: penta_MASH2_Instancer_12
+    400012: penta_MASH2_Instancer_13
+    400014: penta_MASH2_Instancer_14
+    400016: penta_MASH2_Instancer_2
+    400018: penta_MASH2_Instancer_3
+    400020: penta_MASH2_Instancer_4
+    400022: penta_MASH2_Instancer_5
+    400024: penta_MASH2_Instancer_6
+    400026: penta_MASH2_Instancer_7
+    400028: penta_MASH2_Instancer_8
+    400030: penta_MASH2_Instancer_9
+    2300000: penta_MASH2_Instancer_0
+    2300002: penta_MASH2_Instancer_1
+    2300004: penta_MASH2_Instancer_10
+    2300006: penta_MASH2_Instancer_11
+    2300008: penta_MASH2_Instancer_12
+    2300010: penta_MASH2_Instancer_13
+    2300012: penta_MASH2_Instancer_14
+    2300014: penta_MASH2_Instancer_2
+    2300016: penta_MASH2_Instancer_3
+    2300018: penta_MASH2_Instancer_4
+    2300020: penta_MASH2_Instancer_5
+    2300022: penta_MASH2_Instancer_6
+    2300024: penta_MASH2_Instancer_7
+    2300026: penta_MASH2_Instancer_8
+    2300028: penta_MASH2_Instancer_9
+    3300000: penta_MASH2_Instancer_0
+    3300002: penta_MASH2_Instancer_1
+    3300004: penta_MASH2_Instancer_10
+    3300006: penta_MASH2_Instancer_11
+    3300008: penta_MASH2_Instancer_12
+    3300010: penta_MASH2_Instancer_13
+    3300012: penta_MASH2_Instancer_14
+    3300014: penta_MASH2_Instancer_2
+    3300016: penta_MASH2_Instancer_3
+    3300018: penta_MASH2_Instancer_4
+    3300020: penta_MASH2_Instancer_5
+    3300022: penta_MASH2_Instancer_6
+    3300024: penta_MASH2_Instancer_7
+    3300026: penta_MASH2_Instancer_8
+    3300028: penta_MASH2_Instancer_9
+    4300000: penta_MASH2_Instancer_0
+    4300002: penta_MASH2_Instancer_1
+    4300004: penta_MASH2_Instancer_2
+    4300006: penta_MASH2_Instancer_3
+    4300008: penta_MASH2_Instancer_4
+    4300010: penta_MASH2_Instancer_5
+    4300012: penta_MASH2_Instancer_6
+    4300014: penta_MASH2_Instancer_7
+    4300016: penta_MASH2_Instancer_8
+    4300018: penta_MASH2_Instancer_9
+    4300020: penta_MASH2_Instancer_10
+    4300022: penta_MASH2_Instancer_11
+    4300024: penta_MASH2_Instancer_12
+    4300026: penta_MASH2_Instancer_13
+    4300028: penta_MASH2_Instancer_14
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: penta_mat
+    second: {fileID: 2100000, guid: e4784634571a64e8e900f00fdda861f9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: penta_MASH2_Instancer_0
+        weight: 1
+      - path: penta_MASH2_Instancer_1
+        weight: 1
+      - path: penta_MASH2_Instancer_2
+        weight: 1
+      - path: penta_MASH2_Instancer_3
+        weight: 1
+      - path: penta_MASH2_Instancer_4
+        weight: 1
+      - path: penta_MASH2_Instancer_5
+        weight: 1
+      - path: penta_MASH2_Instancer_6
+        weight: 1
+      - path: penta_MASH2_Instancer_7
+        weight: 1
+      - path: penta_MASH2_Instancer_8
+        weight: 1
+      - path: penta_MASH2_Instancer_9
+        weight: 1
+      - path: penta_MASH2_Instancer_10
+        weight: 1
+      - path: penta_MASH2_Instancer_11
+        weight: 1
+      - path: penta_MASH2_Instancer_12
+        weight: 1
+      - path: penta_MASH2_Instancer_13
+        weight: 1
+      - path: penta_MASH2_Instancer_14
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
