@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61448
+60633
 Successfully changed project path to: /Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR
 /Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,8 +54,8 @@ Successfully changed project path to: /Users/Tamer/Library/CloudStorage/OneDrive
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 79.11 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 3.13 ms.
+Refreshing native plugins compatible for Editor in 79.33 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 3.12 ms.
 Initialize engine version: 2021.2.19f1 (602ecdbb2fb0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Assets
@@ -69,35 +69,35 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56159
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56775
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.19f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.000637 seconds.
+Registered in 0.000679 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 81.46 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
+Refreshing native plugins compatible for Editor in 81.76 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.394 seconds
+- Completed reload, in  0.393 seconds
 Domain Reload Profiling:
-	ReloadAssembly (394ms)
-		BeginReloadAssembly (29ms)
+	ReloadAssembly (393ms)
+		BeginReloadAssembly (27ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
 		EndReloadAssembly (299ms)
-			LoadAssemblies (29ms)
+			LoadAssemblies (27ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (66ms)
+			SetupTypeCache (65ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (188ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (82ms)
 				BeforeProcessingInitializeOnLoad (1ms)
@@ -109,40 +109,39 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001938 seconds.
-Android Extension - Scanning For ADB Devices 618 ms
+Registered in 0.002204 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 76.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.17 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.23 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
+- Completed reload, in  0.851 seconds
 Domain Reload Profiling:
-	ReloadAssembly (751ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (852ms)
+		BeginReloadAssembly (159ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (626ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (628ms)
 			LoadAssemblies (36ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
+			SetupTypeCache (170ms)
 			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (348ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (342ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (183ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (177ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
@@ -154,11 +153,11 @@ Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.30 ms.
+Preloading 1 native plugins for Editor in 0.24 ms.
 Unloading 3959 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 28 unused Assets / (95.8 KB). Loaded Objects now: 4423.
-Memory consumption went from 259.8 MB to 259.7 MB.
-Total: 2.403333 ms (FindLiveObjects: 0.109708 ms CreateObjectMapping: 0.046500 ms MarkObjects: 2.169833 ms  DeleteObjects: 0.076584 ms)
+Memory consumption went from 260.3 MB to 260.2 MB.
+Total: 2.312125 ms (FindLiveObjects: 0.124791 ms CreateObjectMapping: 0.047708 ms MarkObjects: 2.059042 ms  DeleteObjects: 0.079958 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,18 +171,198 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13676.327106 seconds.
-  path: Assets/Material/BlackGround.mat
-  artifactKey: Guid(55824562071c840d1baa96bda1d347d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/BlackGround.mat using Guid(55824562071c840d1baa96bda1d347d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1e183a89730e9b745339be363f3a53') in 0.615080 seconds 
+  Time since last request: 16695.410348 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(b292f46c6295a4a7d9f7d839a199e7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(b292f46c6295a4a7d9f7d839a199e7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34264714a7571e98b296babd20eca34') in 0.616676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.398687 seconds.
+  path: Assets/Sounds
+  artifactKey: Guid(d6b8f54a5cef5477db26390774a8314f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(d6b8f54a5cef5477db26390774a8314f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc26272eb77184dc472e7449196b67d2') in 0.001141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.129198 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(602bbfe9cbd4540be8288f36d2478512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(602bbfe9cbd4540be8288f36d2478512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b244414595de2886eab64551eb6a52d5') in 0.000648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 318.329032 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(a52497d0b5a8240c9a4fcb61981c8eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(a52497d0b5a8240c9a4fcb61981c8eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41a87bb3e6824cb043215c67b9f1dc8') in 0.000838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 645.014035 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/penta_mat.mat
+  artifactKey: Guid(b223a82368bc7d84e9a636d3500b7fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/penta_mat.mat using Guid(b223a82368bc7d84e9a636d3500b7fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7f88d3771b87ff4aa2e1b6f6c5270e') in 0.259839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_tube2.mat
+  artifactKey: Guid(e5e3ab8308bb68649af84dd24502c319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_tube2.mat using Guid(e5e3ab8308bb68649af84dd24502c319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3330ae9609ba1c9c602fc1aed6e0f69c') in 0.193072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_neon.mat
+  artifactKey: Guid(abff491820f7acf40bf318706152e3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_neon.mat using Guid(abff491820f7acf40bf318706152e3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3862f9ac54dab64199e9e0d11a3c6f1') in 0.064744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_ring_anim.mat
+  artifactKey: Guid(4b840e108f2c7a242856dd8545a93178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_Environment BG2/VIASS_ring_anim.mat using Guid(4b840e108f2c7a242856dd8545a93178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4789cb235092d2a995506e7c5c566dc0') in 0.174996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.762507 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/APV_VR-Music_texture-lighring-torus2.mat
+  artifactKey: Guid(f2942b7beaa288c4997f65b8ff1b2386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/APV_VR-Music_texture-lighring-torus2.mat using Guid(f2942b7beaa288c4997f65b8ff1b2386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b8d1b225fb491ec066da443bd74503') in 0.129849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_color2_BG1.mat
+  artifactKey: Guid(82e7a7e5fe6099f4eabd702a1b806306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_color2_BG1.mat using Guid(82e7a7e5fe6099f4eabd702a1b806306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94d24c5883b220c18aaf053165fa411') in 0.005230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_BG1.mat
+  artifactKey: Guid(15d29d7178b12554fa20b0725e765e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_BG1.mat using Guid(15d29d7178b12554fa20b0725e765e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f9e403248d776b49ac11c8e8ef698e') in 0.005071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_Race _BG1.mat
+  artifactKey: Guid(d9a7ee690a86c1441b4e0356bf007346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_Race _BG1.mat using Guid(d9a7ee690a86c1441b4e0356bf007346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4775a16f512a61b929b4fbc0ef060224') in 0.005198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS_bomb_anim.mat
+  artifactKey: Guid(1ce172bad536d67438051c0399db9b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS_bomb_anim.mat using Guid(1ce172bad536d67438051c0399db9b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8572f2a5bfef8cabbb464025216c49e9') in 0.004687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_lighting Neon_BG1.mat
+  artifactKey: Guid(ba21e5527f34fa74e88d5eb294d8bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS Environment BG1/VIASS VRMusic_lighting Neon_BG1.mat using Guid(ba21e5527f34fa74e88d5eb294d8bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062ac289e9c39d285bdb058473d425ac') in 0.161209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.725985 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File prefab/VIASS VRMusic_lighting Neon_BG1 Variant.prefab
+  artifactKey: Guid(9ca9ab68c80ff48a4bee4c343aeeb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File prefab/VIASS VRMusic_lighting Neon_BG1 Variant.prefab using Guid(9ca9ab68c80ff48a4bee4c343aeeb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861086fb425ef725393cd09f86295379') in 0.115426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_Glovers_Red Variant.prefab
+  artifactKey: Guid(f17efa25ac0da4f7e899132c4384d9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_Glovers_Red Variant.prefab using Guid(f17efa25ac0da4f7e899132c4384d9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5797c48507fa5f60494524af7bc5fc') in 0.206020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_lightcylinder01_mesh Variant.prefab
+  artifactKey: Guid(89aa1b4a9eee6499ab87d3ff7458f29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_lightcylinder01_mesh Variant.prefab using Guid(89aa1b4a9eee6499ab87d3ff7458f29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333f8466cda7d61c60cb7616a3c14f0a') in 0.013049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_Glovers_Blue Variant.prefab
+  artifactKey: Guid(f60724a41ead543e3ab766b985c1c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File prefab/VIASS_Glovers_Blue Variant.prefab using Guid(f60724a41ead543e3ab766b985c1c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af022f79b86dd87590314baf2f7190c') in 0.006664 seconds 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Registering precompiled user dll's ...
+Registered in 0.001817 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x299baf000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (608ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (479ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 3942 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (72.1 KB). Loaded Objects now: 4470.
+Memory consumption went from 278.4 MB to 278.3 MB.
+Total: 2.296583 ms (FindLiveObjects: 0.119042 ms CreateObjectMapping: 0.047375 ms MarkObjects: 2.080250 ms  DeleteObjects: 0.049458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (72.1 KB). Loaded Objects now: 4470.
+Memory consumption went from 198.7 MB to 198.6 MB.
+Total: 2.308042 ms (FindLiveObjects: 0.119209 ms CreateObjectMapping: 0.047250 ms MarkObjects: 2.078333 ms  DeleteObjects: 0.062458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.24 ms.
 Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (72.1 KB). Loaded Objects now: 4463.
-Memory consumption went from 189.6 MB to 189.6 MB.
-Total: 2.547459 ms (FindLiveObjects: 0.109417 ms CreateObjectMapping: 0.046541 ms MarkObjects: 2.353042 ms  DeleteObjects: 0.038125 ms)
+Unloading 18 unused Assets / (72.1 KB). Loaded Objects now: 4470.
+Memory consumption went from 198.7 MB to 198.6 MB.
+Total: 2.265750 ms (FindLiveObjects: 0.111125 ms CreateObjectMapping: 0.049791 ms MarkObjects: 2.053167 ms  DeleteObjects: 0.051333 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -197,7 +376,192 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 858.251015 seconds.
-  path: Assets/Material/BlackGround.mat
-  artifactKey: Guid(55824562071c840d1baa96bda1d347d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/BlackGround.mat using Guid(55824562071c840d1baa96bda1d347d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a074e335f6393b78228906d5f6ba8703') in 0.006773 seconds 
+  Time since last request: 1080.971657 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/materials_VIASS_Glovers/VIASS_BlueGlover_AlbedoTransparency.mat
+  artifactKey: Guid(7f119ccf4d5ffdb44854c1d55ba28976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/materials_VIASS_Glovers/VIASS_BlueGlover_AlbedoTransparency.mat using Guid(7f119ccf4d5ffdb44854c1d55ba28976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21cf068cf54d15e66c4cee44d9909d3') in 0.042334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.219674 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS_Beat/VIASS_Beat_blue_diff.mat
+  artifactKey: Guid(3d192b8452363dc45b35ab24162baba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/File Material/Materials_VIASS_Beat/VIASS_Beat_blue_diff.mat using Guid(3d192b8452363dc45b35ab24162baba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda2a42a5ef3c80a2ca9c0de298488e2') in 0.142328 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (72.1 KB). Loaded Objects now: 4471.
+Memory consumption went from 199.7 MB to 199.7 MB.
+Total: 2.426167 ms (FindLiveObjects: 0.108666 ms CreateObjectMapping: 0.045667 ms MarkObjects: 2.229708 ms  DeleteObjects: 0.041792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (72.1 KB). Loaded Objects now: 4471.
+Memory consumption went from 199.7 MB to 199.7 MB.
+Total: 2.476000 ms (FindLiveObjects: 0.114667 ms CreateObjectMapping: 0.046583 ms MarkObjects: 2.261167 ms  DeleteObjects: 0.053041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (72.1 KB). Loaded Objects now: 4471.
+Memory consumption went from 199.7 MB to 199.7 MB.
+Total: 3.741500 ms (FindLiveObjects: 0.119875 ms CreateObjectMapping: 0.047958 ms MarkObjects: 3.524542 ms  DeleteObjects: 0.048834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002659 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17cff7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/Tamer/Library/CloudStorage/OneDrive-Personal/UOL GoldSmiths/Level 6/VR/BoxingGym_VR/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (635ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (510ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 3942 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (72.2 KB). Loaded Objects now: 4474.
+Memory consumption went from 278.7 MB to 278.6 MB.
+Total: 2.246750 ms (FindLiveObjects: 0.118083 ms CreateObjectMapping: 0.049000 ms MarkObjects: 2.018833 ms  DeleteObjects: 0.060292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (72.2 KB). Loaded Objects now: 4474.
+Memory consumption went from 199.0 MB to 198.9 MB.
+Total: 2.712875 ms (FindLiveObjects: 0.131708 ms CreateObjectMapping: 0.048916 ms MarkObjects: 2.473792 ms  DeleteObjects: 0.057834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1641.466158 seconds.
+  path: Assets/VIASS VR Music Boxing Pack/Scene Demo/Scenes Demo.unity
+  artifactKey: Guid(cd73204165476d347a9351d4203d0f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS VR Music Boxing Pack/Scene Demo/Scenes Demo.unity using Guid(cd73204165476d347a9351d4203d0f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6639771e672658a3c83b3ce2233171') in 0.001932 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (72.3 KB). Loaded Objects now: 4474.
+Memory consumption went from 199.0 MB to 198.9 MB.
+Total: 2.184625 ms (FindLiveObjects: 0.106417 ms CreateObjectMapping: 0.045083 ms MarkObjects: 1.988750 ms  DeleteObjects: 0.043833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (73.2 KB). Loaded Objects now: 4474.
+Memory consumption went from 199.0 MB to 198.9 MB.
+Total: 2.136292 ms (FindLiveObjects: 0.098250 ms CreateObjectMapping: 0.043666 ms MarkObjects: 1.952000 ms  DeleteObjects: 0.041917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
