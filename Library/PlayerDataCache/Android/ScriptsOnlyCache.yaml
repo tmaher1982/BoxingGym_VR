@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - OnCollision
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -123,6 +125,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7666}
     - Class: 114
       Script: {instanceID: 8818}
+    - Class: 114
+      Script: {instanceID: 25998}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1336,6 +1340,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f5bf5fda23fe4db365f74979ecb206ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnCollision
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
