@@ -447,6 +447,8 @@ GameObject:
   - component: {fileID: 676877850}
   - component: {fileID: 676877849}
   - component: {fileID: 676877848}
+  - component: {fileID: 676877853}
+  - component: {fileID: 676877852}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -536,6 +538,38 @@ RectTransform:
   m_AnchoredPosition: {x: 3.1, y: 6.15}
   m_SizeDelta: {x: 640, y: 480}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &676877852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676877847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
+--- !u!114 &676877853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676877847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5a3eba59a69490fae2a07830c2baf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PunchSpeedBall: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,13 +1672,14 @@ GameObject:
   - component: {fileID: 1365847594}
   - component: {fileID: 1365847600}
   - component: {fileID: 1365847601}
+  - component: {fileID: 1365847602}
   m_Layer: 0
   m_Name: PunchSpeedBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!145 &1365847594
 SpringJoint:
   m_ObjectHideFlags: 0
@@ -1656,7 +1691,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.11, y: 5.07796, z: 7.3}
   serializedVersion: 2
   m_Spring: 100
   m_Damper: 100
@@ -1872,6 +1907,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   punchSound: {fileID: 0}
+--- !u!114 &1365847602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365847593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5a3eba59a69490fae2a07830c2baf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PunchSpeedBall: {fileID: 0}
 --- !u!4 &1380984410 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 534508331975129711, guid: f60724a41ead543e3ab766b985c1c0b0, type: 3}
@@ -2907,7 +2955,6 @@ GameObject:
   - component: {fileID: 1917438215}
   - component: {fileID: 1917438214}
   - component: {fileID: 1917438213}
-  - component: {fileID: 1917438212}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2936,25 +2983,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1917438212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1917438210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 0
-  m_CheckFor2DOcclusion: 0
-  m_CheckFor3DOcclusion: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RaycastTriggerInteraction: 1
 --- !u!114 &1917438213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2998,7 +3026,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1917438214}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 676877853}
+        m_TargetAssemblyTypeName: UIInteractionManager, Assembly-CSharp
+        m_MethodName: OnPlayButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1917438214
 MonoBehaviour:
   m_ObjectHideFlags: 0
